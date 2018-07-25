@@ -1,0 +1,35 @@
+/*Add your component specific CSS styling here*/
+
+.nav {
+	height: 57px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    color: #424242;
+}
+
+.nav-content {
+	max-width: 1400px;
+	padding: 0 20px;
+	height: 100%;
+	width: 100%;
+}
+
+.nav-tabs {
+	height: 100%;
+}
+
+.nav-tab {
+	height: 100%;
+	padding: 0 10px;
+	font-size: 16px;
+	text-decoration: none;
+    color: inherit;
+	cursor: pointer;
+}
+
+.nav-tab:hover {
+	background: rgba(0,0,0,.1);
+}

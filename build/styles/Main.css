@@ -1,1 +1,58 @@
-/*Add your CSS styling here*/
+/*Add your main/general CSS styling here*/
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.page-wrapper {
+	width: 100%;
+	padding-top: 60px;
+}
+
+.frame {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+}
+
+.row-apart {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: inherit;
+	margin: 10px;
+}
+
+.shadow {
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.5);;
+	box-shadow: 0 1px 7px rgba(0,0,0,.2);
+}
+
+.background-hover {
+	-webkit-transition: background .25s ease;
+	transition: background .25s ease;
+}
+
+.button {
+	height: 40px;
+	width: fit-content;
+	border-radius: 27px;
+	background: #5870cb;
+	color: #fff;
+	margin: 10px;
+	cursor: pointer;
+	padding: 0 10px;
+}
+
+.button:hover {
+	background: #8c9eff;	
+}

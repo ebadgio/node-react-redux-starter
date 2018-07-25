@@ -1,7 +1,7 @@
 {
-  "name": "node-react-starter",
+  "name": "node-react-redux-starter",
   "version": "1.0.0",
-  "description": "Starter template for a website using Node.js with Express Server on the backend, and React.js on the frontend.",
+  "description": "Starter template for a website using Node.js with Express Server on the backend, and React.js with Redux on the frontend.",
   "main": "Server.js",
   "scripts": {
     "server": "nodemon ./server/Server.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebadgio/node-react-starter.git"
+    "url": "git+https://github.com/ebadgio/node-react-redux-starter.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ebadgio/node-react-starter/issues"
+    "url": "https://github.com/ebadgio/node-react-redux-starter/issues"
   },
-  "homepage": "https://github.com/ebadgio/node-react-starter#readme",
+  "homepage": "https://github.com/ebadgio/node-react-redux-starter#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
@@ -29,10 +29,16 @@
     "compression": "^1.7.2",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
+    "history": "^4.7.2",
     "nodemon": "^1.18.3",
     "path": "^0.12.7",
+    "prop-types": "^15.6.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.0",
     "webpack": "^2.7.0",
     "webpack-merge": "^4.1.2"
   }
