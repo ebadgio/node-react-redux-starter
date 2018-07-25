@@ -4099,7 +4099,7 @@ var Home = function Home(_ref) {
 			'div',
 			{ className: 'button frame background-hover',
 				onClick: function onClick() {
-					return actionFunc('This is a new header!');
+					return actionFunc('This is a new header changed using redux!');
 				} },
 			'Click me to change the header'
 		)
