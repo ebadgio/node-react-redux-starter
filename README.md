@@ -11,7 +11,7 @@ and with React.js on the frontend, integrated with React Redux and React router.
       * Command: ```npm install```
   3. **Start the server**
       * Command: ```npm run server```
-      * Navigate to http://localhost:3000 and you should see **We're up and running!**
+      * Navigate to http://localhost:3000 and you should see a navbar and a home page.
   4. **Webpack build**
       * During development: ```npm run build```
       * For production: ```npm run prod```
